@@ -7,3 +7,8 @@ The problem requires the implementation of a function caesarCipher that takes th
 The function should only encrypt alphabetic characters in s, leaving non-alphabetic characters unchanged. The encryption process should wrap around the end of the alphabet if a shift takes a letter beyond the letter 'z' (or 'Z' for capital letters). For example, with a shift of 3, the letter 'x' would become 'a'.
 
 The task is to write an efficient function that encrypts the given plaintext string using the Caesar Cipher technique and returns the encrypted string.
+
+
+The time complexity of the given code is O(n), where n is the length of the input string. This is because the code iterates over each character in the input string once, performs a constant amount of work on each character, and then returns the encrypted string.
+
+The space complexity of the given code is also O(n). This is because the code creates a new string of the same length as the input string to store the encrypted string. The code also uses a constant amount of extra space for the variables n and k. Therefore, the total space required by the code is proportional to the length of the input string.
